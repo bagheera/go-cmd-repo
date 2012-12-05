@@ -5,7 +5,7 @@ description: Create a NuGet package
 moreinfo: http://lyricsoft.blogspot.in/2012/10/how-to-build-and-publish-to-nuget-using.html
 keywords: nuget, pack, package
 -->
-<exec command="nuget" workingdir="Nuget">
+<exec command="nuget">
 <arg>pack</arg>
 <arg>component.nuspec</arg>
 <arg>-version</arg>
